@@ -52,7 +52,7 @@ export function init($plugin: IPlugin, store: any) {
     name:     CUSTOM_PAGE_NAME,
     route:    {
       name:   `${ YOUR_PRODUCT_NAME }-c-cluster-${ CUSTOM_PAGE_NAME }`,
-      params: {
+      meta: {
         product: YOUR_PRODUCT_NAME,
         cluster: BLANK_CLUSTER
       }
