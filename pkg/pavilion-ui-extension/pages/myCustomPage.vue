@@ -5,7 +5,7 @@ export default { name: 'MyCustomPage' , meta: {product: {type:String, required: 
 <template>
   <div>
     <h1>Top Level Product</h1>
-    <p>This is a custom VueJS page. You can render anything you want "{{ meta.product }}"</p>
+    <p>This is a custom VueJS page. You can render anything you want "{{ product }}"</p>
   </div>
 </template>
 
