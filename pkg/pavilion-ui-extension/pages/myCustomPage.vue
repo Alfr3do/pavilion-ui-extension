@@ -1,5 +1,8 @@
 <script>
-export default { name: 'MyCustomPage' , meta: {product: {type:String, required: true}}};
+export default { 
+  name: 'MyCustomPage' , 
+  props: ['product']
+  };
 </script>
 
 <template>
