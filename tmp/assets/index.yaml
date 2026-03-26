@@ -11,13 +11,32 @@ entries:
       catalog.cattle.io/ui-component: plugins
       catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
     apiVersion: v2
-    appVersion: 0.1.0
-    created: "2026-03-12T11:30:39.63461923-04:00"
+    appVersion: 0.1.1
+    created: "2026-03-26T14:24:01.235174697-04:00"
     description: pavilion-ui-extension plugin
-    digest: a6ea7badd9d703d3ba99896cefb67dddd0f745a30bfe6b0ec4e427b87ba09d3a
+    digest: 85572b13327bbf5c3f341901202027a13be822880d244ed2c59e777226233446
+    name: pavilion-ui-extension
+    type: application
+    urls:
+    - assets/pavilion-ui-extension/pavilion-ui-extension-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.10.0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-03-12T11:11:31.970364793-04:00"
+    description: pavilion-ui-extension plugin
+    digest: dbf7a387ef40cc6ba5cfc23a8b59c36642bd9237b9628c6c8f45861d47e2e96f
     name: pavilion-ui-extension
     type: application
     urls:
     - assets/pavilion-ui-extension/pavilion-ui-extension-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-12T11:30:39.63439171-04:00"
+generated: "2026-03-26T14:24:01.234865615-04:00"
