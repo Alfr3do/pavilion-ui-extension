@@ -1,0 +1,9 @@
+plugin/img/aip.fe77934b.svg
+plugin/img/harvester.20240f8a.png
+plugin/package.json
+plugin/pavilion-ui-extension-0.1.1.umd.min.59.js
+plugin/pavilion-ui-extension-0.1.1.umd.min.59.js.map
+plugin/pavilion-ui-extension-0.1.1.umd.min.60.js
+plugin/pavilion-ui-extension-0.1.1.umd.min.60.js.map
+plugin/pavilion-ui-extension-0.1.1.umd.min.js
+plugin/pavilion-ui-extension-0.1.1.umd.min.js.map
