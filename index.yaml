@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  pavilion-ui-extension:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.10.0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-03-12T11:11:31.970364793-04:00"
+    description: pavilion-ui-extension plugin
+    digest: dbf7a387ef40cc6ba5cfc23a8b59c36642bd9237b9628c6c8f45861d47e2e96f
+    name: pavilion-ui-extension
+    type: application
+    urls:
+    - assets/pavilion-ui-extension/pavilion-ui-extension-0.1.1.tgz
+    version: 0.1.1
+generated: "2026-03-12T11:11:31.970166927-04:00"
