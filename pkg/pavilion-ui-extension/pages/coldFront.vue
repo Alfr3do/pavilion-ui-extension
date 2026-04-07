@@ -1,7 +1,15 @@
 <script>
 export default { 
   name: 'coldFront' , 
-  props: ['product']
+  props: ['product'],
+
+  computed: {
+    iframeUrl() {
+      const token = this.$store.getters['auth/token'] || '';
+
+      return `https://mercury.cs.fiu.edu:30005?token=${ encodeURIComponent(token) }`;
+    }
+  }
   };
 </script>
 
@@ -10,7 +18,7 @@ export default {
     <h1>Cold Front</h1>
     <p><a href="http://go.fiu.edu/pavilion-lease">Go to Cold Front</a></p>
     <div class="external-frame-container">
-        <iframe src="https://mercury.cs.fiu.edu:30005" class="external-frame" frameborder="0" />
+        <iframe :src="iframeUrl" class="external-frame" frameborder="0" />
     </div>
   </div>
 </template>
