@@ -18,6 +18,6 @@ entries:
       name: pavilion-ui-extension
       type: application
       urls:
-        - assets/pavilion-ui-extension/pavilion-ui-extension-0.1.23.tgz
-      version: 0.1.23
+        - assets/pavilion-ui-extension/pavilion-ui-extension-0.1.24.tgz
+      version: 0.1.24
 generated: "2026-06-23T19:33:39.96082479-04:00"
