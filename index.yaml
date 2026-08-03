@@ -12,12 +12,12 @@ entries:
         catalog.cattle.io/ui-extensions-version: ">= 3.0.0 < 4.0.0"
       apiVersion: v2
       appVersion: 0.1.0
-      created: "2026-03-12T11:11:31.970364793-04:00"
+      created: "2026-08-03T18:38:47.167073385-04:00"
       description: pavilion-ui-extension plugin
-      digest: 8d839665197a15ea4c0ea9a507e7a15408c55131eb60e8efb5790b5947825605
+      digest: 3529e7868f29048a1ed5d597d969b761185d6016159019e92e4e0b75eb9d83f3
       name: pavilion-ui-extension
       type: application
       urls:
-        - assets/pavilion-ui-extension/pavilion-ui-extension-0.2.2.tgz
-      version: 0.2.2
-generated: "2026-08-03T22:28:51.077802979-04:00"
+        - assets/pavilion-ui-extension/pavilion-ui-extension-0.2.3.tgz
+      version: 0.2.3
+generated: "2026-08-04T00:38:47.167073385-04:00"
