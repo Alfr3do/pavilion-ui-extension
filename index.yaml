@@ -14,10 +14,10 @@ entries:
       appVersion: 0.1.0
       created: "2026-03-12T11:11:31.970364793-04:00"
       description: pavilion-ui-extension plugin
-      digest: f66e026b115a0dd27321d00983f11762a96f4f7356da53a2ed91dd94274cf60c
+      digest: d749e4b8cfc2c9875c32055e3927f655b3f1cc314447cfc7dd5a0825de691ca8
       name: pavilion-ui-extension
       type: application
       urls:
-        - assets/pavilion-ui-extension/pavilion-ui-extension-0.1.24.tgz
-      version: 0.1.24
-generated: "2026-06-23T19:33:39.96082479-04:00"
+        - assets/pavilion-ui-extension/pavilion-ui-extension-0.1.25.tgz
+      version: 0.1.25
+generated: "2026-08-03T11:48:07.352731133-04:00"
